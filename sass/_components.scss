@@ -1,3 +1,9 @@
+//////////////////////////////
+///                        ///
+///        Navbar          ///
+///                        ///
+//////////////////////////////
+
 // LOGO
 .logo {
   height: 3.25rem;
@@ -102,6 +108,12 @@
   }
 }
 
+//////////////////////////////
+///                        ///
+///        Sidebar         ///
+///                        ///
+//////////////////////////////
+
 .side-nav {
   font-size: 1.4rem;
   list-style: none;
@@ -166,4 +178,55 @@
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem;
+}
+
+//////////////////////////////
+///                        ///
+///        Gallery         ///
+///                        ///
+//////////////////////////////
+
+.gallery {
+  display: flex;
+
+  &__photo {
+    display: block;
+    width: 100%;
+  }
+}
+
+//////////////////////////////
+///                        ///
+///        Gallery         ///
+///                        ///
+//////////////////////////////
+
+.overview {
+  display: flex;
+
+  &__heading {
+  }
+
+  &__stars {
+    margin-right: auto;
+  }
+
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
+
+  &__location {
+  }
+
+  &__rating {
+  }
+
+  &__rating-average {
+  }
+
+  &__rating-count {
+  }
 }
